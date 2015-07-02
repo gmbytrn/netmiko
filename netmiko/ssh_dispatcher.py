@@ -26,6 +26,7 @@ CLASS_MAPPER = {
     'f5_ltm'        : F5LtmSSH,
     'juniper'       : JuniperSSH,
     'brocade_vdx'   : BrocadeVdxSSH,
+    'alcatel_7210'  : Alcatel7210SSH,
 }
 
 platforms = list(CLASS_MAPPER.keys())
