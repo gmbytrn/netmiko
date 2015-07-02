@@ -10,6 +10,7 @@ from netmiko.huawei import HuaweiSSH
 from netmiko.f5 import F5LtmSSH
 from netmiko.juniper import JuniperSSH
 from netmiko.brocade import BrocadeVdxSSH
+from netmiko.alcatel import Alcatel7210SSH
 
 # The keys of this dictionary are the supported device_types
 CLASS_MAPPER = {
